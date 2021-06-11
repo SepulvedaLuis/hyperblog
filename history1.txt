@@ -1,0 +1,87 @@
+    1  cd BasicProjects/GitGitHub/
+    2  code
+    3  git status
+    4  cd proyecto1/
+    5  git status
+    6  git add .
+    7  git commit -m "Generamos un nuevo parrafo en blogpost"
+    8  git log
+    9  git show
+   10  git status
+   11  git add .
+   12  git commit -m "Cambiamos el estilo y un parrafo"
+   13  git show
+   14  cd
+   15  cd descargas
+   16  cd Descargas/
+   17  mv git-github_917f1c24-de6d-4d30-99ca-f47214e6ae16.pdf BasicProjects/GitGitHub/
+   18  mv git-github_917f1c24-de6d-4d30-99ca-f47214e6ae16.pdf BasicProjects/GitGitHub
+   19  mv git-github_917f1c24-de6d-4d30-99ca-f47214e6ae16.pdf /BasicProjects/GitGitHub
+   20  mv git-github_917f1c24-de6d-4d30-99ca-f47214e6ae16.pdf ../BasicProjects/GitGitHub
+   21  git log --stat
+   22  cd ../BasicProjects/GitGitHub/proyecto1/
+   23  git log --stat
+   24  git status
+   25  git add ./
+   26  git commit -m "Mejoramos nuestro codigo de estilo y estructura"
+   27  git status
+   28  git branch cabecera
+   29  git show
+   30  git status
+   31  git checkout cabecera 
+   32  git status
+   33  git show
+   34  git status
+   35  git add blogpost.html 
+   36  git commit -m "Estructura inicial de la cabecera"
+   37  git status
+   38  git show
+   39  git log
+   40  git checkout master
+   41  git log
+   42  git checkout cabera
+   43  git checkout cabecera
+   44  cd
+   45  cd BasicProjects/GitGitHub/
+   46  ls
+   47  cat > second.txt
+   48  ls
+   49  cat second.txt 
+   50  clear
+   51  cd proyecto1/
+   52  git status
+   53  git commit -am "Finalizada la cabecera con diseño azul"
+   54  git status
+   55  git checkout master
+   56  git commit -am "Agregado el contenido adicional del blog y una mejor tipigrafía"
+   57  gi status
+   58  git status
+   59  git show
+   60  git log
+   61  git checkout cabecera
+   62  git checkout master
+   63  git brach
+   64  git branch
+   65  git merge cabecera "Unimos las dos ramas: Merge cabera estando en master"
+   66  git status
+   67  git show
+   68  git merge cabecera "Unimos las dos ramas, cabecera y master"
+   69  git merge cabecera
+   70  git show
+   71  git log
+   72  git status
+   73  git commit -am "Volviendo a la tipografía Arial"
+   74  git show
+   75  git log
+   76  git checkout cabecera
+   77  git merge master 
+   78  git status
+   79  git commit -am "Modificamos estilo y cabecera"
+   80  git checkout master
+   81  git commit -am "Moficamos cabecera y color texto"
+   82  git merge cabecera
+   83  git status
+   84  git commit -am "Resuelto el conflicto de las ramas al fucionar"
+   85  ls
+   86  cat history > history1.txt
+   87  history > history1.txt
